@@ -106,7 +106,35 @@ select {
   padding: 10px 0px;
   padding-left: 7px;
   border-radius: 3px;
+  margin-bottom: 2px;
   /* margin-left: 2%; */
+}
+.card-head {
+  font-family: john;
+  color: #05264e;
+  font-size: 20px;
+}
+.card-para {
+  font-family: john2;
+  color: #5d6f7d;
+}
+.exp-head {
+  font-family: john;
+  color: #05264e;
+  text-align: center;
+}
+.exp-div {
+  border: 1px dashed rgb(202, 207, 216);
+  border-radius: 7px;
+}
+.exp-img {
+  width: 100%;
+  height: 50vh;
+  border-radius: 7px;
+  margin-top: 5%;
+}
+.routes-div {
+  background-color: #F1F5F8;
 }
 @media only screen and (max-width: 768px) {
   .underline {
