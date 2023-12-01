@@ -1,0 +1,128 @@
+@font-face {
+  font-family: john;
+  src: url(./fonts/Jost-Black.ttf);
+}
+@font-face {
+  font-family: john2;
+  src: url(./fonts/Jost-Regular.ttf);
+}
+.logo {
+  width: 100%;
+  height: 7vh;
+}
+.flag {
+  width: 98%;
+  height: 5vh;
+}
+.but1 {
+  padding: 5px 7px;
+  border: none;
+  margin-right: 7px;
+}
+.sign {
+  background-color: #cd2c22;
+  color: white;
+  font-family: john2;
+  border: none;
+  border-radius: 7px;
+  padding: 5px 12px;
+}
+.banner-div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./image/banner.jpg);
+  background-color: linear gradient;
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-text {
+  color: white;
+  font-family: john;
+  text-align: center;
+  align-items: center;
+  font-size: 45px;
+  padding-top: 15%;
+}
+.underline {
+  width: 200px;
+  height: 150px;
+  border: solid 5px #cd2c22;
+  border-color: white transparent transparent transparent;
+  border-radius: 70%/20px 10px 0 0;
+  margin-left: 785px;
+  margin-bottom: -130px;
+}
+.banner-parh {
+  color: white;
+  font-family: john2;
+  text-align: center;
+  font-size: 17px;
+}
+.form-div {
+  background-color: white;
+  width: 80%;
+  height: 20vh;
+  margin-left: 7%;
+  border-radius: 7px;
+  font-family: john2;
+  box-sizing: border-box;
+}
+input:focus {
+  outline: none;
+}
+select:focus {
+  outline: none;
+}
+.radio {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.inp-1 {
+  border: 1px solid rgb(170, 164, 164);
+  border-radius: 5px;
+  float: right;
+  margin-right: 2%;
+  margin-top: -2%;
+}
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  font-family: john2;
+  background-image: none;
+  border: 2px solid rgb(170, 164, 164);
+  border-radius: 3px;
+}
+.sel {
+  padding: 0px 40px 0px 0px;
+}
+::placeholder {
+  color: rgb(143, 135, 135);
+}
+.date {
+  border: 2px solid rgb(170, 164, 164);
+}
+.all-inp {
+  padding: 10px 0px;
+  padding-left: 7px;
+  border-radius: 3px;
+  /* margin-left: 2%; */
+}
+@media only screen and (max-width: 768px) {
+  .underline {
+    margin-left: 130px;
+  }
+  .inp-1 {
+    float: left;
+  }
+  .form-div {
+    height: 33vh;
+    width: 85%;
+  }
+  .all-inp {
+    margin-right: 2%;
+  }
+  .inp-1 {
+    margin-top: 1%;
+  }
+}
